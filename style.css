@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+}
+.banner{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width:100%;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+}
+.banner-title{
+  font-family:GothicI, cursive, serif;
+}
+.article-container{
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width:100%;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+}
+.article{
+  width:25%;
+  justify-content: center;
+}
+.main-article{
+  width:50%;
+}
+.main-article-pic{
+  width: 50%;
+}
+.headline{
+  text-align: center; 
+}
